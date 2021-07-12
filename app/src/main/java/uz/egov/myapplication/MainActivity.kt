@@ -32,10 +32,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //init client credentials
-        FullConst.PD_ALLOW=true
-        FullConst.CLIENT_ID="test"
-        FullConst.USER_ID="2"
-        FullConst.CLIENT_SECRET="QSXCWtlDlbRom2MFRg9CVt6EFsX/aCZ4wdf9c6pl22Q9B="
+        FullConst.PD_ALLOW=false
+        FullConst.CLIENT_ID=""
+        FullConst.USER_ID=""
+        FullConst.CLIENT_SECRET=""
         mrzBtn=findViewById(R.id.mrzBtn)
         nfcBtn=findViewById(R.id.nfcBtn)
         faceBtn=findViewById(R.id.faceBtn)
